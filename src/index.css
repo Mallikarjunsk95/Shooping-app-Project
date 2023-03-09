@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@keyframes banner{
+      25%{ background-image: url("../public/2.jpg");}
+      50%{ background-image: url("../public/3.jpg");}
+      75%{ background-image: url("../public/4.jpg");}
+
+}
+
+#mybanner{
+  background-image:url('../public/1.jpg');
+  background-size: 100% 100%;
+  height: 300px;
+  background-position: center;
+  animation: banner;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+.block1{
+  width: 100%;
+  font-size: 25px;
+  background-color: rgb(74, 47, 79);
+  margin: auto;
+  text-decoration: none!important;
+}
+
+.block1 li{
+  display: inline-block;
+  color: white;
+  padding: 15px;
+   
+
+}
+.block2{
+  width: 100%;
+  font-size: 25px;
+  background-color: rgb(67, 47, 79);
+  margin: auto;
+  text-decoration: none;
+}
+
+.block2 li{
+  display: inline-block;
+  color: white;
+  padding: 20px;
+   
+
+}
